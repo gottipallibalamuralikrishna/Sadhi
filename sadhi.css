@@ -1,0 +1,189 @@
+body{
+  margin: 0px;
+}
+header{
+  background-image: url(https://img2.shaadi.com/assests/2017/images/home-page-banner-tvc-v3.jpg);
+  width: 98.5vw;
+  height: 85vh;
+  background-size:cover;
+  color: white;
+  margin: 0px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+}
+.mk{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.logo{
+  margin-left: 350px;
+  margin-top: 30px;
+  height: 30px;
+  width: 100px;
+}
+.mk div:last-child{
+  margin-top: 40px;
+}
+a{
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+.love{
+  font-size: 43px;
+  width: 500px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 250px;
+  color: white;
+}
+.main{
+  border-radius: 5px;
+  height:120px;
+  width: 800px;
+  font-size: 20px;
+  margin-left: 300px;
+  background-color: rgba(30, 30, 30, 0.449);
+  display: flex;
+  justify-content: space-between;
+  /* padding: 15px; */
+}
+select{
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  color: gray;
+}
+input{
+  width: 50px;
+  height: 20px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+#beg{
+  width: 110px;
+  height: 30px;
+  background-color: rgb(48, 207, 207);
+  color: white  ;
+  border: none;
+  margin-top: 55px;
+}
+header+p,.m+p{
+  font-size: 38px;
+  color: rgb(255, 27, 27);
+  text-align: center;
+}
+section a{
+  color: rgb(76, 227, 227);
+  font-size: 25px;
+}
+.m{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.m a:hover{
+  text-decoration: underline;
+}
+.pn1 div,.pn2 div,.pn3 div{
+  background-image: url(./1.png);
+  background-repeat: no-repeat;
+  height: 170px;
+  width: 160px;
+  background-size: cover;
+  margin:auto;
+}
+.pn1,.pn2,.pn3{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 25px;
+
+}
+.pn1 div:hover{
+  background-image: url(./1.hover.png);
+}
+.pn2 div{
+  background-image: url(./2.png);
+}
+.pn2 div:hover{
+  background-image: url(./2.hover.png);
+}
+.pn3 div{
+  background-image: url(./3.png);
+}
+.pn3 div:hover{
+  background-image: url(./3.hover.png);
+}
+.u{
+  display: grid;
+  grid-template-columns: 310px 310px 310px;
+  justify-content: center;
+  margin-bottom: 80px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.u div{
+  height: 250px;
+  width: 310px;
+  border:1px solid black;
+  flood-opacity: 0.9;  
+}
+.u h1,.u p{
+  visibility: hidden;
+  z-index: -1;
+}
+.u div:hover h1,.u div:hover p{
+  visibility: visible;
+  transition: 0.5s;
+  padding-left: 10px;
+}
+.k,.r,.i,.s,.h,.n{
+  background-image: url(https://img.shaadi.com/success-story/KSH28622769-RSH18941217-big.jpg);
+  height: 250px; width: 310px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.r{
+  background-image: url(https://img.shaadi.com/success-story/7SH05960563-5SH85928846-big.jpg);
+}
+.i{
+  background-image: url(https://img.shaadi.com/success-story/XSH42882487-ySH80900369-big.jpg);
+}
+.s{
+  background-image: url(https://img.shaadi.com/success-story/2SH81612209-QSH06349996-big.jpg);
+}
+.h{
+  background-image: url(https://img.shaadi.com/success-story/zSH16791218-hSH90531714-big.jpg);
+}
+.n{
+  background-image: url(https://img.shaadi.com/success-story/8SH90195669-sSH96244259-big.jpg);
+}
+.a{
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 35px;
+  background-color: rgb(207, 72, 72);
+  color: white;
+  padding: 10px 0px;
+
+}
+.a button{
+  width: 175px;
+  font-size: 22px;
+  height: 45px;
+  color: white;
+  border: 2px solid white;
+  background-color: rgb(207, 72, 72);
+  border-radius: 5px;
+}
+.a button:hover{
+  background-color: white;
+  color: aqua;
+}
